@@ -37,7 +37,8 @@ const SearchPage: FC = () => {
       {isLoading ? 
       <div className='mt-10'>
         <LoadingBars />
-      </div> : (
+      </div>
+      : (
          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 mt-10">
           {characters.map(character => (
             <CharacterCard key={character.id} character={character} />
