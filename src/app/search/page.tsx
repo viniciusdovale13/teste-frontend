@@ -33,7 +33,7 @@ const SearchPage: FC = () => {
 
   return (
     <div className='container text-center mt-10'>
-      <h1 className='text-3xl font-bold'>Você buscou por <span>"{querySearch}"</span></h1>
+      <h1 className='text-3xl font-bold'>Você buscou por <span>{querySearch}</span></h1>
       {isLoading ? 
       <div className='mt-10'>
         <LoadingBars />
